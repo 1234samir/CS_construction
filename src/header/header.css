@@ -1,0 +1,21 @@
+.logo_header img{
+    width: 250px;
+}
+.App-header a {
+    color: #f2711c;
+}
+
+
+.App-header a:visited {
+    color: #f2711c
+  }
+  
+  /* mouse over link */
+  .App-header a:hover {
+    color: #f2711c;
+  }
+  
+  /* selected link */
+  .App-header a:active {
+    color: #f2711c;
+  }

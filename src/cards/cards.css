@@ -1,0 +1,26 @@
+.card {
+  width: 30%;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  padding-top: 15px;
+  border-color: white;
+}
+
+.raper {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.bck_card {
+  background-color: gray;
+  height: 100px !important;
+  width: 100px !important;
+}
+
+@media only screen and (max-width: 950px) {
+  .card {
+    width: 90%;
+  }
+}
+

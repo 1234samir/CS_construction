@@ -1,0 +1,124 @@
+
+/* .official{ } */
+
+.all_footer{
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 100px;
+
+}
+
+
+.logo{
+  
+  width: 30%;
+  height: 10px;
+  /* margin-left: 30px; */
+}
+
+.footer_logos{
+  float: right;
+  width: 30%;
+  height: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+.contact{
+  width: 30%;
+  float: right;
+  padding: 100px  100px 0px 25px;
+
+}
+/* paddingle bununla ishleyib eyni seviyede ede bilersen , tek 100px yaz , o da qeshey olur*/
+
+
+.clear {
+  clear: both;
+}
+
+.item p {color: grey;
+  font-family: "proxima-nova";
+      font-size: 20px;
+      line-height: 1.5em;
+      text-transform: none;
+      letter-spacing: 0px;
+      font-weight: 100px;
+      font-style: normal;
+      margin-top: 20px;
+      
+      padding-bottom: 1px;
+      text-align: left;
+}
+.container  {
+  margin-top: 40px;
+}
+
+.float-right {
+  margin-top: 100px;
+}
+
+.logo img{
+  width: 350px;
+  
+}
+
+
+
+.footer_logos img {
+  width: 390px;
+}
+
+.last_line{
+  margin-top: 250px;
+ 
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .all_footer div {
+    margin-top: 100px;
+  }
+
+  .logo{
+  
+    width: 98%;
+
+   
+    
+  }
+  .logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+
+  }
+  /* .logo .item p {
+    margin-right: 15%;
+  } */
+
+  .footer_logos{
+    
+    width: 98%;
+  }
+  .footer_logos img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+  .contact{
+    width: 90%;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .last_line{
+    margin-top: 500px;
+   
+  }
+
+
+    }
