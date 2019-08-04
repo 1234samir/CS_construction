@@ -10,8 +10,10 @@ import { FeaturetteLeft } from './featurette_left/featurette_left';
 import { Divider } from './Divider';
 import { Footer } from './footer/Footer';
 import PhoneNumber from './Projects';
-
+import {useAuthState} from './hooks/auth'
 function Home() {
+  const [auth] = useAuthState()
+  console.log(Promise.resolve(auth))
   return (
     <div className="App">
       <Slides />
